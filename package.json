@@ -1,0 +1,12 @@
+{
+  "name": "rails_phone_shop_candidate_manoj5ingh_66813a17b2a76a490bede3986539b1f1",
+  "private": true,
+  "dependencies": {
+    "@rails/actioncable": "^6.0.0",
+    "@rails/activestorage": "^6.0.0",
+    "@rails/ujs": "^6.0.0",
+    "@rails/webpacker": "4.3.0",
+    "turbolinks": "^5.2.0"
+  },
+  "version": "0.1.0"
+}
