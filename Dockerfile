@@ -57,4 +57,3 @@ RUN /bin/bash -l -c "yarn install --check-files"
 RUN yum clean all
 
 #CMD  /bin/bash -l -c "rails s -b 0.0.0.0 -p 5000"
-rails new rails-phone-shop-candidate-manoj5ingh-66813a17b2a76a490bede3986539b1f1 --webpack=react
