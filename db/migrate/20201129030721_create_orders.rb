@@ -6,6 +6,8 @@ class CreateOrders < ActiveRecord::Migration[6.0]
       t.datetime :delivery_date
       t.text :message
       t.integer :delivery_address_id
+      t.bigint :product_id
+      t.bigint :tracking_id
       t.timestamps
     end
   end
