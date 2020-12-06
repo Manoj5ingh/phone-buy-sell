@@ -30,6 +30,7 @@ RSpec.describe "CustomerController", :type => :request do
         }
       }
   end
+  
   context 'Customer routes' do
     it 'should return list of cart items' do
       expect_any_instance_of(ApplicationController).to receive(:authorized_user?).and_return('')

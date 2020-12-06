@@ -15,5 +15,9 @@ Rails.application.routes.draw do
     post 'customer/buy/:pid', to: 'customer#buy_with_pid'
     get 'customer/track/:tracking_id', to: 'customer#get_track'
     
+    get 'admin/products'
+    get 'admin/product/:id', to: 'admin#product'
+    delete 'admin/remove_product/:id', to: 'admin#remove_product'
+    put 'admin/edit_product/:id', to: 'admin#edit_product'
   end
 end
